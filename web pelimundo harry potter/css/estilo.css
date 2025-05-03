@@ -1,0 +1,254 @@
+*{
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+/* estilo del nav */
+nav ul {
+    list-style: none;
+	display: flex;
+	flex-direction: row ;
+	justify-content: flex-start ;
+    align-items: center;
+    background-color: grey;
+    color: azure;
+    height: 2.5em;
+    padding: 0.5rem;
+    border-radius: 0.3em;
+    
+}nav a:hover, nav a:focus {
+    background-color: cornflowerblue;
+    color: black;
+    border-radius: 4px;
+}
+a{
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+/* estilo a la imagen de logo del encabezado */
+
+header figure img{
+    width: 6em;
+    border-radius: 50%;
+     }
+/* estilo del header con flexbox */ 
+header{
+    background-color: lightblue;
+    height: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em;
+    
+}
+header h1{
+    font-size: 3.5em;
+}
+header figure{
+    width: 20vh;
+}
+main{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 1em;
+
+}
+#articulo1{
+    background-color:  #938db6;
+    margin: 1em;
+    padding: 1em;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 10%;
+
+}
+#articulo1 p {
+margin-top: 1em;
+
+}
+#articulo2{
+    background-color: #7edcbc;
+    margin: 1em;
+    padding: 1em;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+/* segunda magina reparto*/
+section main article figure img{
+    width: 70%;
+    height: 15em;
+    margin: 3em;
+    border-radius: 50%;
+    border: solid;
+    border: 0.5;
+
+     }
+section main article {
+    width: 27%;
+    margin: 2em;
+    background-color: #6b9393;
+    border-radius: 10%;
+    border: solid;
+    border: 0.5;
+    
+    
+}
+section main article p{
+    margin: 1em;
+    
+}
+section main {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2{
+    background-color: lightblue;
+    text-align: center;
+    padding: 0.4em;
+    border-radius: 1em;
+}
+/*css de pagina datos */
+aside{
+    background-color: rgb(136, 150, 163);
+    border-radius: 5px;
+}
+aside section a{
+    color: rgb(255, 255, 255);
+}
+main table th,td{
+    border: 1px solid;
+    padding: 2em;
+    
+}
+#section-de-datos{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 30%;
+    padding: 1em;
+    border: 0.5em;
+}
+aside figure img{
+    width: 100%;
+}
+table{
+    margin: 9em;
+}
+main table tr:hover{
+    background-color: rgb(104, 174, 151);
+}
+table tr th{
+    background-color: rgb(141, 215, 215);
+}
+/* Estilo del registro*/
+form{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 6em;
+    border-radius: 1em;
+}
+.secform{
+    margin: 1em;
+    margin-left: 7em;
+    display: flex;
+    flex-direction: column;
+}
+input,select{
+    width: 80%;
+    padding: 2px;
+}
+/* formulario del aside */
+#formAsunto{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    
+    
+    
+}
+#novedadsi{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+#novedadno{
+    display: flex;
+    flex-direction: row;
+}
+.subti{
+    padding: 0.8em;
+    border-radius: 1em;
+    margin: 0.4em;
+}
+label{
+    padding-top: 0.8em;
+}
+input{
+    border-radius: 0.2rem;
+    padding: 0.3em;
+}
+.pais{
+    border-radius: 0.2rem;
+    padding: 0.3em;
+}
+legend{
+    padding-top: 0.8em;
+}
+.afirmo{
+    width: 3em;
+}
+.btest{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    background-color: lightblue;
+    border-radius: 0.2em;
+}
+
+
+
+input.radioOpcion {
+    accent-color: rgb(108, 182, 195);   /* cambia el color del botón seleccionado */
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+    margin-right: 0.5em;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin-right: 1em;
+    display: inline-flex;
+    align-items: center;
+  }
+  .linkAside {
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.linkAside:hover {
+    transform: scale(1.05);
+    border-color: rgb(156, 180, 219);
+}
+.resAside{
+    padding: 0.4rem;
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+section{
+    background-color: rgb(240, 218, 247);
+    
+}
+h1{
+    color: rgb(234, 127, 255);
+    padding: 2rem;
+}
+fieldset{
+    border-top: solid 2px rgb(234, 127, 255);;
+    width: 30vw;
+    margin: auto;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+}
+fieldset legend{
+    margin: auto;
+}
+figure{
+    width: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 100%;
+}
+#con{
+    display: flex;
+    flex-direction: row;
+}
+#abierto{
+    display: none;
+}
+input{
+   margin-bottom: 0.5em;
+   border:3px solid rgb(234, 127, 255);
+   width: 100%;
+   padding: 0.3rem;
+   border-radius: 7px;
+}
+
+#bt{
+    margin: auto;
+    padding: 0.5em;
+    display: block;
+    width: 100%;
+    background-color: rgb(191, 95, 206);
+   color: aliceblue;
+}
+.elform{
+    width: 30rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+.inpus{
+    padding-bottom: 2rem;
+}
+

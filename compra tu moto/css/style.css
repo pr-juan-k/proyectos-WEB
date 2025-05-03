@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+h1{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+    color: rgb(236, 71, 71);
+}
+article{
+    padding: 2rem;
+    border: 3px solid black;
+    width: 20rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+.formu{
+    
+    width: 32em;
+    margin: auto;
+
+    background-image: url("../img/agencia.jpg");
+    background-size: contain;          /* muestra la imagen completa */
+    background-position: center center; /* centra horizontal y vertical */
+    background-repeat: no-repeat; 
+    min-height: 700px;
+}
+section{
+    padding: 0.4rem;
+}
+#tot {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: rgb(255, 0, 0);
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+.inpus{
+    padding: 1rem;
+    background-color: beige;
+    border-radius: 1rem;
+    margin: 10px;
+}
+input{
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+

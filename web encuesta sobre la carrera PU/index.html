@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estylo.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header>
+        <h1>---Encuesta---</h1>
+    </header>
+    <main>
+
+        <form action="encuesta.php" method="post" >
+        <article >
+            
+            <fieldset id="datos">
+                <legend id="cuadroR"><h2>Datos Personales</h2></legend>
+                <section>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre-alumno" id="nombre" placeholder="Ingrese su nombre" maxlength="50" required>
+                </section>
+                <section>
+                <label for="email">Mail:</label>
+                <input type="email" name="email-alumno" id="email" placeholder="Ingrese su cuenta de mail" required >
+                </section>
+                <section>
+                <label for="fech">Fecha de nacimiento:</label>
+                <input type="date" name="fecha-nac-alumno" id="fecha" value="01/01/2000">
+                </section>
+                <section>
+                <label for="celular">Celular (con codigo de area, sin 0 ni 15):</label>
+                <input type="tel" pattern="[0-9]{11}" name="celular-alumno" id="celular" placeholder="54-381000000" >
+              </section>
+            </fieldset>
+
+        </article>
+            
+        
+        <article >
+            <fieldset id="scarrera">
+                <legend id="cuadroA"><h2>Sobre la carrera</h2></legend>
+            <section >
+                <label for="carrera">Indique en la carrera que se inscribio originalmente:</label>
+                <select class="in2" name="carreras" id="carrera">
+                    <option value="">Progrmador universitario</option>
+                    <option value="">Licenciatura en informatica</option>
+                    <option value="">Ingenieria en informatica</option>
+                    <option value="">Agrimensura</option>
+                </select>
+            </section>
+                <h4>¿Recursa la carrera?</h4>
+                <section class="it-carrera">
+                    <input type="radio" name="respuesta" id="respuesta-si" >
+                    <label for="respuesta-si">Si</label>
+                    
+               </section>
+
+                
+                <section class="it-carrera">
+                    <input type="radio" name="respuesta" id="respueta-no" checked >
+                    <label for="respuesta-no">No</label>
+                    
+                </section>
+
+                <h4>Materias que cursa:</h4>
+                
+                <section class="it-carrera">
+                    <input type="checkbox" name="materias-algebra" id="materiasAL">
+                    <label for="materiasAL">Algebra</label>
+               </section>
+                <section class="it-carrera">
+                    <input type="checkbox" name="materia-calculo" id="materiaCAL">
+                    <label for="materiaCAL">Calculo I</label>
+                </section>
+                <section class="it-carrera" >
+                    <input type="checkbox" name="materia-laboratorio" id="materiaLAB" checked>
+                    <label for="materiaLAB">Laboatorio I</label>
+                </section>
+                
+                <section class="it-carrera" >
+                    <input type="checkbox" name="materia-ECL" id="materiaECL"> 
+                <label for="materiaECL">Elemento de calculo y logica</label>
+                </section>
+                <section class="it-carrera" >
+                    <input type="checkbox" name="materia-otra" id="otras">
+                    <label for="otras">Otras</label>
+                </section>
+            </section>
+
+        </fieldset>
+            
+        </article>
+
+
+
+        
+        <article>
+            <fieldset   id="smateria">
+                <legend id="cuadroV"><h2>Sobre la materia</h2></legend>
+
+            <p id="dia-comision" >Indique la comision practica a la que asiste</p>
+            <section>
+                <label for="dia">Dia:</label>
+            <select class="in2"  name="dia-practica" id="dia">
+                <option value="">Martes</option>
+                <option value="">Miercoles</option>
+                <option value="">Viernes</option>
+            </select>
+            </section>
+            <section>
+                <label for="hora">Hora:</label>
+            <input type="time" name="hora-de-practica" id="hora">
+            </section>
+            
+            <label for="grado">Indique el grado de satisfaccion de la materia:(bajo) <input type="range" name="grado-satisfaccion" id="grado" min="0" max="100" step="5" > (alto)</label>
+            <section>
+                <label for="dictado">Del 1 al 10 como califica</label>
+            <input type="number" name="calificacion-dictado" id="dictado" min="0" max="10" value="5">
+            </section>
+        </fieldset>
+        </article>
+
+        <article id="botones" >
+            <input type="submit" value="Enviar" class="botone-estilo">
+            <input type="reset" value="Limpiar" class="botone-estilo" >
+        </article>
+       </form>
+    </main>
+
+    
+    
+</body>
+</html>

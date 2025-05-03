@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Registrarme</title>
+</head>
+<body>
+     <!--navegacin principal-->
+     <nav>
+        <ul>
+            <li><a href="#contenido">contenido</a></li>
+            <li><a href="#navegacion">navegacion</a></li>
+        </ul>
+    </nav>
+    <!--encabezado con logo,titulo y un menu de navegacin-->
+    <header>
+        <figure>
+            <img src="../imagen/pngtree-movie-board-icon-image_1455346.jpg" alt="logo" title="logo de pagina">
+        </figure>
+        <h1>Pelimundo</h1>
+        <nav id="navegacion">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="reparto.html">Reparto</a></li>
+            <li><a href="datos.html">Datos tecnicos</a></li>
+            <li><a href="">Registrarme</a></li>
+        </ul>
+    </nav>
+    </header>
+   <!--inici del main-->
+   <main>
+    <article>
+        <section>
+        
+        <form action="#" method="post">
+            <h2>Cargue el siguiente formulario para crear su suscripcion por favor!</h2>
+            
+            <section class="secform">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="NombreUsuario" placeholder="Jose Esteban" required>
+             <label for="mail">Mail</label>
+            <input type="email" name="mailUsuario" id="mail" placeholder="mmm@.gmail.com" required>
+            <label for="passw">Contraseña:</label>
+            <input type="password" id="passw" name="contraseña" required>
+            </section>
+
+
+            <section class="secform">
+            <label for="Fech">Fecha de nacimiento:</label>
+            <input type="date" name="Fecha" id="Fech">
+
+            <label for="pais">Pais:</label>
+            <select name="paisUsuario" id="pais">
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Francia</option>
+
+            </select >
+            
+            <legend>¿Desea resibir novedades y promociones?</legend>
+            <label>
+                <input type="radio" name="opcion" value="opcion1" class="radioOpcion"> Opción 1
+              </label>
+              <label>
+                <input type="radio" name="opcion" value="opcion2" class="radioOpcion"> Opción 2
+              </label>
+            
+
+            <input class="btest" type="submit" value="Suscribir">
+            </section>
+        </form>
+        </section>
+
+    </article>
+
+    <aside >
+        <h2>¿Algun inconveniente? CONTACTANOS...</h2>
+        <form action="#" method="get" id="formAsunto">
+            <label for="emailUsuari">deje su Email por favor:</label>
+            <input type="email" name="email" id="emailUsuario">
+            </section>
+            <section>
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto-A-tratar" id="asunto">
+           </section>
+           <section>
+            <label for="asunto">Describenos:</label>
+            <textarea name="descripcion" id="asunto" cols="30" rows="10"></textarea>
+            </section>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </aside>
+   </main>
+   <footer>
+    <p> © copyright Brito Juan</p>
+    <a href="mailto:djjuankalexis18@gmail.com">djjuankalexis18@gmail.com</a>
+</footer>
+</body>
+</html>

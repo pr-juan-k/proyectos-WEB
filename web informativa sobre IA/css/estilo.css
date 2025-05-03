@@ -1,0 +1,137 @@
+/* damos parametros en cero para anular las modificaciones que ya traen por defecto */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/* damos propiedad a todas los tag P */
+p{
+     
+    margin: 1em;
+}
+
+
+header {
+    padding: 0;
+}
+/* damos propiedad a nuestro gusto a "h1" */
+header h1 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 1em;
+}
+/* trabajamos con "nav" ordenandolo en columna quitandole propiedad por defecto
+funcionalidad y color */
+nav {
+    background-color: lightgreen;
+}
+
+nav li {
+    padding: 1em;
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    text-decoration: none;
+    
+}
+
+nav a:hover, nav a:focus {
+    background-color: seagreen;
+    color: black;
+
+}
+/* alineamos y damos margees a los titulos */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+/* damos ubicacion y margen a nuestra inagenes dentro de main */
+figure {
+    width: 40%;
+    float: left;
+    padding: 1em;
+    
+
+}
+main section article figure {
+    width: 10%;
+
+}
+
+figure img {
+    width: 100%;
+    
+}
+aside figure img{
+    padding-left: 1.9em;
+}
+
+p {
+    
+}
+/* centramos y damos color a nestro pie de pagina */
+footer {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+footer img {
+    width: 5em;
+    
+}
+/* organizamos y damos propiedad aa nuestro "main"y "aside" */
+main, aside {
+    display: inline-block;
+}
+
+main {
+    
+    width: 75%;
+}
+
+
+aside {
+    vertical-align: top;
+    width: 24%;
+    text-align: center;
+    padding-top: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    
+}
+
+aside h2 {
+    margin-bottom: 1.5em;
+}
+
+aside img {
+    width: 15em;
+    
+}
+.imgAside {
+    border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+    transition: transform 0.3s ease;
+  }
+  
+  .imgAside:hover {
+    
+    transform: scale(1.05); 
+  }
+  figcaption{
+    margin-bottom: 1.5em;
+  }

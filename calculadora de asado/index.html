@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Asado</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    
+    <main>
+        <form>
+            <header><h1>Calculadora de Asado</h1></header>
+            <section>
+                <label class="comensales" for="">Ingrese la cantidad de personas:</label>
+                <input type="number" name="comensales" id="comensales">
+            </section>
+            <fieldset>
+                <legend>Selecione el/los agregados:</legend>
+                <section id="ocultar">
+                    <label for="">Vacio</label>
+                </section>
+                <section>
+                    <h2>Agregados:</h2>
+                </section>
+                <section>
+                    <input type="checkbox" name="agregado" id="ninguno">
+                    <label for="ninguno">Nada</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="agregado" id="pan">
+                    <label for="pan">Pan</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="agregado" id="ensalada">
+                    <label for="ensalada">Ensalada</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="agregado" id="panEnsalada">
+                    <label for="panEnsalada">Pan y ensalada</label>
+                </section>
+            </fieldset>
+            <textarea id="mensaje" cols="50" rows="10"></textarea>
+            <section>
+                <input class="btrein" type="reset" value="Reiniciar">
+            </section>
+        </form>
+    </main>
+    <script src="js/java.js"></script>
+</body>
+</html>
